@@ -52,11 +52,10 @@ lon=[
 #creating a sample data consisting different points 
 # df = pd.DataFrame(np.random.randn(800, 2) / [50, 50] + [46.34, -108.7],columns=['latitude', 'longitude'])
 # df = pd.DataFrame(np.random.randn(800, 2) / [50, 50] + [46.34, -108.7] , columns=['latitude', 'longitude'])
-df = pd.DataFrame('latitude': lat,
-                  'longitude': lon)
+df = {'latitude': lat,
+                  'longitude': lon}
 
-d = {'col1': [1, 2], 
-     'col2': [3, 4]}
+ 
 st.write(df)
 
 
