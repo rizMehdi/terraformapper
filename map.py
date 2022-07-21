@@ -7,7 +7,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.header("Terraform Maps")
+st.header("Terraform")
+st.write("Trees planted in Rawalpindi-Islamabad, PK")
+st.write("Last update: 21/07/22")
 # 33.662855, 73.087393
 # 33.66284908863495, 73.08752503127836
 # 33.66292499311975, 73.08721389523399
