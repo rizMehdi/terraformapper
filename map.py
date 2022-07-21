@@ -35,7 +35,7 @@ lat=[
 33.42437415195493,  
 ]
 
-long=[
+lon=[
   73.087393, 
   73.08752503127836, 
   73.08721389523399, 
@@ -52,8 +52,8 @@ long=[
 #creating a sample data consisting different points 
 # df = pd.DataFrame(np.random.randn(800, 2) / [50, 50] + [46.34, -108.7],columns=['latitude', 'longitude'])
 # df = pd.DataFrame(np.random.randn(800, 2) / [50, 50] + [46.34, -108.7] , columns=['latitude', 'longitude'])
-df = pd.DataFrame('latitude': [-34.58, -15.78, -33.45, 4.60, 10.48],
-                  'longitude': [-58.66, -47.91, -70.66, -74.08, -66.86]})
+df = pd.DataFrame('latitude': lat,
+                  'longitude': lon)
 
 d = {'col1': [1, 2], 
      'col2': [3, 4]}
