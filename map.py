@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
+st.header("Terraform Maps")
 # 33.662855, 73.087393
 # 33.66284908863495, 73.08752503127836
 # 33.66292499311975, 73.08721389523399
@@ -54,7 +54,7 @@ lon=[
 # df = pd.DataFrame(np.random.randn(800, 2) / [50, 50] + [46.34, -108.7] , columns=['latitude', 'longitude'])
 
 df = pd.DataFrame({'latitude': lat,'longitude': lon} , columns=['latitude', 'longitude']) 
-st.write(df)
+#st.write(df)
 
 
 
